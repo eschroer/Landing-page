@@ -8,11 +8,61 @@ body {
 
 nav {
     background-color: #1F2937;
-    color: white;
-
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    height: 50px;
 }
-
+ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    padding-right: 20px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    font-weight: bold;
+}
 .hero {
     background-color: #1F2937;
     height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.hero-content{
+    width: 400px;
+}
+.subtext{
+    color: #E5E7EB;
+    font-size: 24px;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: #E5E7EB;
+    margin-top: 16px;
+    padding: 8px 32px;
+}
+.hero-image {
+    height: 200px;
+    width: 400px;
+    background-color: #6c6c6c;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
