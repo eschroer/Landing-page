@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #1F2937;
+    color: white;
+
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 250px;
+}
