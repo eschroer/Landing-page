@@ -49,7 +49,7 @@ h1 {
     color: #E5E7EB;
     font-size: 24px;
 }
-button{
+.hero-btn{
     background-color: #3882F6;
     border-radius: 8px;
     border: none;
@@ -62,6 +62,7 @@ button{
     width: 400px;
     background-color: #6c6c6c;
     color: #E5E7EB;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,3 +117,31 @@ figcaption{
     align-self: flex-end;
     margin-right: 165px;
 }
+.cta-section {
+    padding: 100px;
+}
+.cta-content {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E5E7EB;
+    height: 150px;
+    margin: 32px;
+}
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 100px;
+}
+.cta-btn{
+    background-color:#3882F6 ;
+    border-radius: 8px;
+    border: solid #E5E7EB 2px;
+    color: #E5E7EB;
+    padding: 8px 32px;
+    margin-right: 100px;
+}
+
