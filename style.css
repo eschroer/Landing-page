@@ -40,7 +40,7 @@ h1 {
     height: 250px;
     display: flex;
     justify-content: space-between;
-    padding: 50px 100px;
+    padding: 100px;
 }
 .hero-content{
     width: 400px;
@@ -65,4 +65,33 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.information{
+    padding: 100px;
+}
+.information-title{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+.info-content {
+    display: flex;
+    justify-content: space-between;
+}
+.info-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid 3px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.info-text{
+    text-align: center;
+    width: 150px;
 }
