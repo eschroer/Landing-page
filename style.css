@@ -144,4 +144,9 @@ figcaption{
     padding: 8px 32px;
     margin-right: 100px;
 }
-
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 50px;
+    color: #E5E7EB;
+}
